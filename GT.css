@@ -1,0 +1,63 @@
+html{
+    background: url(https://haycafe.vn/wp-content/uploads/2022/01/Hinh-nen-Su-Tu-dep-ngau-nhat.jpg);
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 270px;
+    width: 100%;
+    background-image:url(https://cdn.pixabay.com/photo/2016/01/20/15/38/children-1151716_960_720.jpg) ;
+    border: 3px solid black ;
+    border-radius: 20px 0 20px 0;
+  
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align: center;
+    margin: 10px 0;
+  
+}
+h1{
+    color:#fffa65;
+    text-align: center; 
+    font-size: 40px;
+    font-weight:800px; 
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color:#fffa65;
+    font-size: 20px;
+    margin-top: 2px;
+    line-height: 40px;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+img{
+    color:black
+}
+.active{
+    text-decoration: underline;
+}
+.product h2{
+    text-align: center;
+    padding: 22px 0;
+}
+.product-list{
+    display: flex;
+    justify-content: space-between;
+}
+.product-item{
+    width: 32%;
+}
