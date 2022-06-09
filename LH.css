@@ -1,0 +1,36 @@
+html{
+    background: url(https://scr.vn/wp-content/uploads/2020/08/H%C3%ACnh-b%C3%A0u-tr%E1%BB%9Di-c%E1%BB%B1c-%C4%91%E1%BA%B9p-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-cao-s%E1%BA%AFc-n%C3%A9t.jpg);
+  
+}
+*{
+    margin: 8px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 1441px;
+    margin: 0 auto;
+}
+.container{
+    text-align: center;
+}
+table, th, td, h1 {
+    border:2px solid black;
+    margin: 0 auto;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color:#000000;
+    font-size: 20px;
+    margin-top: 2px;
+    line-height: 40px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+h1{
+    background-color: Yellow;
+    text-align: center;
+}
