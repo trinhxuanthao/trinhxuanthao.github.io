@@ -1,63 +1,57 @@
-html{
-    background: url(https://haycafe.vn/wp-content/uploads/2022/01/Hinh-nen-Su-Tu-dep-ngau-nhat.jpg);
-  
-}
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Century Gothic;
 }
+
 header{
-    height: 270px;
-    width: 100%;
-    background-image:url(https://cdn.pixabay.com/photo/2016/01/20/15/38/children-1151716_960_720.jpg) ;
-    border: 3px solid black ;
-    border-radius: 20px 0 20px 0;
-  
+    background-image:linear-gradient(rgba( 0,0,0,0.5 ),rgba( 0,0,0,0.5 )), url(https://lgg3-dongiantaodangcap.com.vn/wp-content/uploads/hinh-nen-dep-nhat.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
 }
-.container{
-    width: 980px;
-    margin: 0 auto;
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
 }
 
-.logo{
-    text-align: center;
-    margin: 10px 0;
-  
+ul li.acctive a{
+    background-color: #fff;
+    color: #000;
 }
-h1{
-    color:#fffa65;
-    text-align: center; 
-    font-size: 40px;
-    font-weight:800px; 
+.main{
+    max-width: 1200px;
+    margin: auto;
 }
-nav ul li a{
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
     text-decoration: none;
-    font-weight: 600;
-    color:#fffa65;
-    font-size: 20px;
-    margin-top: 2px;
-    line-height: 40px;
-
+    transition: 0.6s ease;
 }
-nav ul li a:hover{
-    text-decoration: underline;
-
-}
-img{
-    color:black
-}
-.active{
-    text-decoration: underline;
-}
-.product h2{
-    text-align: center;
-    padding: 22px 0;
-}
-.product-list{
-    display: flex;
-    justify-content: space-between;
-}
-.product-item{
-    width: 32%;
-}
+/* 00000000000 */
