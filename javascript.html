@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html>
+           <head>
+                   <style>
+		#demo{color:red;
+  text-align: center;background:cyan;border: 8px double #1f2460;border-radius:40px/40px;height: 300px;width: 400px;font-size: 20px}
+		button1{background:green;border: 5px double #000000;}
+    button2{background:yellow;border: 5px double #000000;}
+	  button3{background:red;border: 4px double #000000;}
+    h1{color:#411c97}
+      </style>
+           </head>
+           <body>
+            <h1>JavaScript on HTML </h1>
+            <p id="demo"></p>
+            <button1 type="button" onclick="hienthi()">Hiển thị</button1>  
+             </p>
+      <button2 type="button" onclick="tongn()">Tổng 1->n</button2>              </p>
+           <button3 type="button" onclick="tongchan()">Tổng chẵn 1->n</button3>  
+          <script>
+              function hienthi() {
+                document.getElementById("demo").innerHTML = "Xin chào mọi người!!!";
+              }
+             function tongn() {
+	//Hiển thị tổng 1 -> 10
+                document.getElementById("demo").innerHTML = "Tổng 1->n.";
+              }
+            function tongchan() {
+	//Hiển thị tổng chẵn 1->10
+                document.getElementById("demo").innerHTML = "Tổng chẵn 1->n.";
+              }
+            </script>       
+     </body>
+    </html>
+      
